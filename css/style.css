@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.textjustify {
+   
+    background-color: blueviolet;
+}
+
+.example {
+    text-align: start;
+    border: solid;
+  }
+  
+
+.header {background-color: #f1f1f1;padding: 30px;text-align: center;font-size: 20px;}
+.row {display: -webkit-flex;display: flex;}
+.column {padding: 10px;}
+.column.side {-webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.column.middle {-webkit-flex: 2;-ms-flex: 2;flex: 2;}
+.footer {background-color: #f1f1f1;padding: 10px;text-align: center;}
+p{margin:0}
+.banner{padding:15px;background-color:red;margin-bottom:5px;}
+aside div{position:sticky;top:10px;}
+@media (max-width: 600px) {.row {-webkit-flex-direction: column;flex-direction: column;}}
